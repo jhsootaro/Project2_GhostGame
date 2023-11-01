@@ -1,0 +1,52 @@
+/* canvas{
+  margin:auto;
+  display: block;
+}
+h1{
+  text-align: center;
+
+}
+p{
+  text-align: center;
+} */
+
+
+
+body {
+
+  margin: 0;
+  padding: 0;
+  display: block;
+  /* overscroll-behavior: none; */
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(56, 4, 76);
+  text-align: center;
+  color: #FFFADA;
+  justify-content: center;
+  align-items: center;
+  /* transform: translate(-50%,-50%);  */
+
+  overflow-y: hidden;
+}
+
+.btn2 {
+  font-family:'Times New Roman', Times, serif;
+  /* text-indent: 8px; */
+  letter-spacing: 3px;
+  font-size: 25px;
+  color: #FFFADA;
+  cursor:pointer;
+  position:fixed;
+  bottom:  280px;
+}
+
+.btn2:hover {
+  color: rgb(255, 255, 255, 0.5);
+}
+
+.btn2:hover span{
+  color: rgb(255, 255, 255, 0.5);
+
+
+}
